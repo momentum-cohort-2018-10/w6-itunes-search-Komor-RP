@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iTunes Search</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="search">
+        <h1>Music Search</h1>
+            <input type="text" placeholder="Search for music">
+            <button type=Submit>Submit</button>
+            <div class="specify">
+                <input type="radio" value="musicArtist" id="musicArtist" name="query">
+                <label for="musicArtist">Artist</label>
+                <input type="radio" value="song" id="song" name="query">
+                <label for="song">Song Title</label>
+                <input type="radio" value="album" id="album" name="query">
+                <label for="album">Album Title</label>
+            </div>
+        
+
+        
+        
+    </div>
+    <div class="play">
+        <audio controls src="https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview128/v4/95/b4/ef/95b4efc9-78cb-1dd1-efec-b035388cc6fd/mzaf_1057344860430019591.plus.aac.p.m4a">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+    </div>
+    <div class="results">
+    </div>
+    
+</body>
+</html>
